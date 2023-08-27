@@ -2,6 +2,7 @@ name: "Bug"
 description: "Report bug/issue with mod"
 title: "[BUG] <title>"
 labels: ["bug"]
+assignees: ["zimavi"]
 body:
 - type: checkboxes
   attributes:
