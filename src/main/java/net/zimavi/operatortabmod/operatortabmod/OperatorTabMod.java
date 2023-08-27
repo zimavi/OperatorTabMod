@@ -16,5 +16,6 @@ public class OperatorTabMod implements ModInitializer {
         LOGGER.info("Starting Operator Tab mod init!");
         OperatorItemGroup.register();
         LOGGER.info("Operator Tab mod initialized!");
+        LOGGER.debug("This log made for github testing");
     }
 }
