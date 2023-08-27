@@ -33,14 +33,15 @@ body:
       1. See error...
   validations:
     required: false
-- type: textarea
+- type: input
+  id: minecraft-version
   attributes:
     label: Minecraft version
     description: Specify minecraft version you are using
   validations:
     required: false
 - type: dropdown
-  id: loaders
+  id: mod-loaders
   attributes:
     label: What mod loader are you using?
     multiple: true
