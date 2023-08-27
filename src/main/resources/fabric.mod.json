@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "operatortabmod",
+  "version": "0.0.1-1.18.2",
+  "name": "OperatorTabMod",
+  "description": "",
+  "authors": [ "Z1maV1" ],
+  "contact": {
+    "repo": "https://github.com/zimavi/OperatorTabMod-Fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/operatortabmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.zimavi.operatortabmod.operatortabmod.client.OperatorTabModClient"
+    ],
+    "main": [
+      "net.zimavi.operatortabmod.operatortabmod.OperatorTabMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
